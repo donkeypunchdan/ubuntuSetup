@@ -2,7 +2,7 @@
 sudo apt-get update -y
 
 # install packages 
-sudo apt-get install -y openssl curl
+sudo apt-get install -y openssl curl vim ntp
 
 # python 2.7 setup
 sudo apt-get install build-essential checkinstall
@@ -14,3 +14,11 @@ cd Python-2.7.14
 sudo ./configure
 sudo make altinstall
 
+# need to add section about addin commands to ~/.bashrc
+#alias winMichael='cd /mnt/c/Users/Michael/'
+#winMichael=/mnt/c/Users/Michael/
+#alias winC='cd /mnt/c/'
+#winC=/mnt/c/
+#alias python='python2.7'
+
+. ~/.bashrc
